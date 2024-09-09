@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Portal Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <h2>Login form</h2>
+            <form id="loginForm" onsubmit="return loginUser(event)">
+                <div class="form-group">
+                    <label for="First Name">First Name</label>
+                    <input type="First Name" id="First Name" name="First Name" placeholder="Enter your First Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="Last Name">Last Name</label>
+                    <input type="Last Name" id="Last Name" name="Last Name" placeholder="Enter your Last Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit">Login</button>
+                <button type="clear">Clear</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
